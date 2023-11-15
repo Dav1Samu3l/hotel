@@ -87,3 +87,26 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+  html {
+    padding: 2% 5%;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  /* Adicione estilos adicionais para outros elementos conforme necessário */
+}
+
+/* Estilos para dispositivos maiores */
+@media (min-width: 768px) {
+  /* Adicione estilos adicionais para dispositivos maiores aqui */
+}
